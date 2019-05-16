@@ -5,7 +5,8 @@
     
   ></script>
 <script>
-$.get("https://api.myip.com", function (response) {
-    $("#response").html(JSON.stringify(response, null, 4));
-}, "jsonp");
+$.getJSON("https://api.ipdata.co/?api-key=test", function(response){
+       alert(response.country_name)
+
+    });
 </script>
