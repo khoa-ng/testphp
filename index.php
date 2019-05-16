@@ -5,7 +5,7 @@
     
   ></script>
 <script>
-$.get("http://ip-api.com/json", function (response) {
+$.get("https://api.myip.com", function (response) {
     $("#response").html(JSON.stringify(response, null, 4));
 }, "jsonp");
 </script>
