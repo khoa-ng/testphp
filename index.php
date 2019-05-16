@@ -5,7 +5,7 @@
     
   ></script>
 <script>
-$.get("https://api.ipdata.co/?api-key=test", function (response) {
+$.get("http://ip-api.com/json", function (response) {
     $("#response").html(JSON.stringify(response, null, 4));
 }, "jsonp");
 </script>
